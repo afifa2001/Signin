@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Glass Antiqua', cursive;
+    background-image: url(../BASICS/IMAGE/cupcakeandicecream.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: blanchedalmond;
+    width: 30%;
+    padding: 22px;
+    border-radius: 10px;
+}
+form .head{
+    text-transform: capitalize;
+    text-align: center;
+}
+form .pinky{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 20px;
+}
+form #div2{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: yellow;
+}
+#email{
+    position: relative;
+}
+.fa-envelope{
+    position: absolute;
+    top: 44px;
+    left: 10px;
+}
+#password{
+    position: relative;
+}
+#inpass{
+    padding: 10px 0 0 0;
+}
+.fa-lock{
+    position: absolute;
+    top: 55px;
+    left: 10px;
+}
+#signin{
+    position: relative;
+}
+.fa-right-to-bracket{
+    position: absolute;
+    top: 10px;
+    left: 251px;
+}
+#rem{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+#welcome{
+    text-transform: uppercase;
+    color: #f4ce14;
+}
